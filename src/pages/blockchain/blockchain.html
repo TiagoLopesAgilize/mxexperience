@@ -1,0 +1,71 @@
+<!--
+  Generated template for the BlockchainPage page.
+  
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+      </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button color="secondary" (click)="start()">Start</button>
+  <button ion-button color="danger" (click)="stop()">Stop</button>
+  <h5>Status: <span id="status">Not connected</span></h5>
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="cubes">
+          <div id="myList"></div>
+
+          <!-- Estático 
+          <div class="item">
+            <div class="cube block1">
+              <div class="info">
+                
+              </div>
+              <div class="number">1
+              </div>
+              
+              <div class="color-cube">
+              </div>
+              
+              <div class="triangle-up">
+              </div>
+              
+              <div class="cube-icon">
+              </div>
+              
+              <div class="triangle-down">
+              </div>
+              <div class="hash">
+                <h2>
+                  <span>Hash:</span> c2794ea2931062add8e31b8e89c9f240ee64f922dbce790be62ff22a5fed0e42
+                </h2>
+                
+                <h2>
+                  <span>Hash previous:</span> 5a83cd249e0b514ae1d5be2c514740b17d36fef019204c2bd40edf46bb3084e0
+                </h2>
+              </div>
+            </div>
+            <div class="info">
+              <img src="../assets/imgs/user.jpg" class="img-user">
+              <h3><span>Nome: </span>Tiago Lopes</h3>
+              <h3><span>CPF: </span>823.162.015-04</h3>
+            </div>
+          </div>
+          -->
+          
+        </div>    
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  <div class="footer">
+  </div>
+</ion-content>

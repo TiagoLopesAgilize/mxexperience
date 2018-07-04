@@ -1,0 +1,185 @@
+.toolbar-background{
+    background: #0e71b8 !important;
+}
+
+.button-inner {
+    color: #fff !important;
+}
+
+.toolbar-title {
+    color: #fff;
+}
+
+ion-slides {
+    max-height: 400px;
+}
+
+.swiper-slide{
+    display: block;
+}
+
+.slide-image{
+    max-height: 350px !important;
+    margin-top: 10px;
+}
+
+.slide1 {
+    background: #f1f1f1;
+}
+
+.slide1{
+    h2{
+        text-align: left;
+        margin-left: 45px;
+        font-weight: 900;
+        margin-top: 90px;
+        color: #1f2a47;
+        font-size: 30px;
+    }
+    
+    p {
+        margin-left: 45px;
+        text-align: left;
+        font-size: 15px;
+        color: #757575;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+}
+
+.orange {
+    position: relative;
+    display: inline-block;
+    min-width: 6em;
+    width: auto;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 1.5em;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    line-height: 1rem;
+    outline: none;
+    border-color: #9f6705;
+    color: #fff;
+    background: rgb(253,169,23);
+    background: -moz-linear-gradient(top, rgba(253,169,23,1) 0%, rgba(252,143,1,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,169,23,1)), color-stop(100%,rgba(252,143,1,1)));
+    background: -webkit-linear-gradient(top, rgba(253,169,23,1) 0%,rgba(252,143,1,1) 100%);
+    background: -o-linear-gradient(top, rgba(253,169,23,1) 0%,rgba(252,143,1,1) 100%);
+    background: -ms-linear-gradient(top, rgba(253,169,23,1) 0%,rgba(252,143,1,1) 100%);
+    background: linear-gradient(to bottom, rgba(253,169,23,1) 0%,rgba(252,143,1,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fda917', endColorstr='#fc8f01',GradientType=0 );
+    line-height: 1.5rem;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 3em;
+    float: left;
+    margin-left: 45px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+ion-searchbar {
+    background: #c1c1c1 !important;
+}
+
+ion-card {
+    margin: 0px !important;
+}
+
+
+ion-card img {
+    border-radius: 2px 2px 0px 0px;
+}
+
+.card-title h4 {
+    color: #999;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.more{
+    min-height: 40px;
+    background-color: #f6822a;
+}
+
+.card {
+    .orange {
+        width: 100%;
+        height: 40px;
+        float: none;
+        margin-left: 0px;
+    }
+}
+
+.social{
+    background-image: url('../assets/imgs/slide-background.png');
+    background-size: cover;
+    margin-top: 70px;
+    padding: 45px;
+    color: #fff;
+    text-align: center;
+    
+    ion-icon{
+        font-size: 50px;
+    }
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+    // text-align: left;
+}
+
+.footer {
+    background: #0e71b8;
+    color: #fff;
+    text-align: center;
+    
+    p{
+        margin: 0px;
+        padding: 20px;
+        font-size: 12px;
+    }
+}
+
+ion-menu .scroll-content {
+    overflow: hidden !important;
+    background: #0e71b8 !important;
+}
+
+ion-menu .item{
+    background: #0e71b8 !important;
+    color: #fff;
+}
+
+ion-menu ion-list {
+    margin-top: 11px !important;
+}
+
+.title-page {
+    background: #f2f2f2;
+}
+
+.title-page h4{
+    margin: 0px !important;
+    color: #0e71b8;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.form-control{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    height: 35px;
+    padding: 5px;
+}
+
+.alert-button-group{
+    button{
+        background: #aaa !important;
+    }
+}

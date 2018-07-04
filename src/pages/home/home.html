@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title></ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding class="background-pagehome">
+    <h5>Selecione a opção desejada</h5>
+    <button ion-button block class="banking" (click)="adicionarCarrinho()">Open banking</button>
+    <button ion-button color="secondary" (click)="genBlock()" class="contract" block>Smart contract</button>
+    <!-- <button ion-button class="leitor" block (click)="this.qrScanner.prepare()">Leitor de QR-Code</button> -->
+</ion-content>

@@ -1,0 +1,145 @@
+page-details-documento {
+    
+    .card {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        margin: 15px 0px;
+        background: #fafafa;
+        padding: 15px;
+        
+        .title{
+            text-align: center;
+            color: #0e71b8;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        
+        .item-info{
+            border-radius: 5px;
+            border: 1px solid #0e71b8;
+            padding: 6px 10px;
+            margin-top: 10px;
+
+            span{
+                position: absolute;
+                margin-top: -13px;
+                background: #fafafa;
+                padding: 0px 8px;
+                color: #0e71b8;
+                font-weight: 800;
+                font-size: 10px;
+                text-transform: uppercase;
+            }
+
+            h4{
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 11px;
+            }
+        }
+
+        .image {
+            width: 25%;
+            margin-top: 10px;
+            float: left;
+            padding-right: 10px;
+
+            img {
+                border-radius: 5px;
+                max-height: 70px;
+            }
+        }
+
+        .main {
+            min-height: 80px;
+
+        }
+
+        .infos {
+            float: left;
+            width: 75%;;
+        }
+
+        .custom48 {
+            float: left;
+            width: 48%;
+            margin-left: 2%;
+        }
+
+        .custom50 {
+            float: left;
+            width: 50%;
+        }
+        
+        .icon-security{
+            position: absolute;
+            right: 30px;
+            background: #fcac18;
+            padding: 5px 9px;
+            border-radius: 22px;
+            margin-top: -8px;
+            color: #0e71b8;
+        }
+    }
+
+    .details{
+        margin-top: 20px;
+    }
+
+    .item-details{
+        border-bottom: 1px solid #ddd;
+        margin-top: 15px;
+        
+        h5{
+            float: left;
+            margin-right: 15px;
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 20px;
+            color: #0e71b8;
+            margin: 0px;
+            margin-right: 15px;
+            margin-left: 5px;
+            width: 120px;
+        }
+
+        p {
+            color: #444;
+            font-size: 13px;
+            font-weight: 500;
+            margin-top: 0px;
+        }
+    }
+
+    .dados-cliente{
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 30px;
+        border: 2px solid #0e71b8;
+
+        .title{
+            font-weight: 600;
+            text-align: left;
+            margin-top: -25px;
+            background: #fff;
+            margin-left: -5px;
+            position: absolute;
+            display: inline-block;
+            padding: 0px 10px;
+            color: #0e71b8;
+        }
+
+        .item-details{
+            border: 0px none;
+        }
+    }
+
+    .button-custom{
+        background: #2e2e2e;
+        height: 50px;
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+}

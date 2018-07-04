@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title></ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div class="tirar-foto" *ngIf="!gerarDocumento">
+    <h6>Tire um foto do seu documento, para que possamos identificá-lo</h6>
+    <button ion-button block class="camera" (click)="takePicture()">Obter imagem</button>
+    <button ion-button block class="camera-disable" (click)="goDocumento()">Prosseguir</button>
+  </div>
+  
+  <div class="gerar-documento" *ngIf="gerarDocumento">
+      <p>Imagem registrada</p>
+      <div class="imagem-documento">
+        <img src="{{ photo }}" alt="">
+      </div>
+
+      <p class="title">Obtenha sua autentiação a partir do documento fornecido.</p>
+      <button class="button-custom" ion-button block (click)="goDetailsDocumento()">Gerar autenticação</button>
+  </div>
+ 
+
+</ion-content>

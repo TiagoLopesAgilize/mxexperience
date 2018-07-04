@@ -1,0 +1,47 @@
+page-home {
+    h5{
+        margin-top: 120px !important;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .button {
+        margin-bottom: 10px !important;
+        height: 50px !important;
+        border-radius: 50px !important;
+    }
+}
+
+.leitor {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.leitor:hover{
+    background: rgba(0, 0, 0, 1);
+}
+
+.background-pagehome{
+    background-image: url('../assets/imgs/backgroung-home.png');
+    background-size: cover;
+    color: #fff;
+}
+
+.banking{
+    background: rgba(22, 127, 202, 0.74);
+}
+
+.banking:hover{
+    background: rgba(22, 127, 202, 1) !important;
+}
+
+.contract{
+    background-color: rgb(246, 130, 42);
+}
+
+.contract:hover{
+    background-color: rgb(246, 130, 42) !important;
+}
+
+
